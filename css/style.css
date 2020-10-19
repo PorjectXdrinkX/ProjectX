@@ -55,6 +55,16 @@ ul li a:hover{
     margin: auto;
     
 }
+.main ul {
+    display:inline-flex;
+    list-style: none;
+    color: transparent;
+}
+.active,.main ul:hover{
+
+}{
+
+}
 .title{
         position: absolute;
         top: 50%;
@@ -98,3 +108,5 @@ ul li a:hover{
     
     75%{ background-image: url('s'); }
 }
+
+
