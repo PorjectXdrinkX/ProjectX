@@ -1,20 +1,11 @@
-<script>
-  var i=0 ;
-  var images=[];
-  var time=3000 ;
-  images[0]='slide1.jpg';
-  images[1]='slide2.jpg';
-  images[2]='slide3.jpg';
-
-  function changeImg(){
-    document.slide.src=images[i];
-    if(i< images.length-1){
-      i++;
-    }else{
-      i=0;
-    }
-    setTimeout("changeImg()",time); 
+function display(email){
+  var name =  
+ if (/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(myForm.emailAddr.value))
+  {
+    alert("Thank You For Subscribing ");
+    return (true)
+ 
   }
-  window.onload=changeImg;
-  </script>
-<img name="slide" width="400" height="200">
+    alert("You have entered an invalid email address!")
+    return (false)
+}
