@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="RBK BANK">
+	  <meta name="keywords" content="RBK BANK">
+  	<meta name="author" content="ANAS FLAH">
+    <title>RBK BANK | Amount Calulator</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="head1">
+          <h1><span class="highlight">RBK</span> BANK</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index1.html">Help</a></li>
+            <li><a href="#">Developer</a></li>
+            <li class="current"><a href="youamount.html">Steal Money</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="main">
+      <div class="container">
+        <article id="main-col">
+          <h1 class="page-title">Steal Money</h1>
+          <ul id="youamount">
+            <li>
+              <h3>Easy Money Easy Go 🙃</h3>
+              <p>unfortunately our system has detected your trying to steal from us so please fill our captcha</p>
+						  <p>Try Now</p>
+            </li>
+          </ul>
+          <form id="contactForm1" onsubmit="return validateForm()" action="#" method="post">
+            <label>Captcha <span style="color:#F00;font-size:20px">*</span>:</label>
+            <input type="text" class="form-control" style="margin-bottom: 0px; width: 200px; height: 40px; font-size: 24px; font-weight: bolder; text-decoration: line-through; display: inline-block; background-color: rgb(178, 0, 255);" id="mainCaptcha" disabled="">
+            <button class="btn btn-success" type="button" style="display: inline-block;" id="refresh" onclick="Captcha();">Reset</button>
+            <div style="margin-top:10px; color: #D8000C; background-color: #FFBABA; border-radius: 7px;" id="log"></div>
+             
+            <input style="margin-top:10px;" type="text" class="form-control" placeholder="Enter captcha" name="captcha" id="txtInput" required="">
+             
+            <button class="btn btn-primary btn-lg" type="submit" name="submit">Submit Form</button>
+             
+            </form>
+          
+        </article>
+      </div>
+    </section>
+
+    <footer>
+      <p>RBK Service, All Right And Left Reserved &copy; AnA$</p>
+    </footer>
+  </body>
+</html>
