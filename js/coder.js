@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title></title>
-</head>
-<body>
-
-</body>
-</html>
+$('.datepicker').datepicker({
+    endDate: '-18y'
+  });
